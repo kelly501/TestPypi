@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="TestPypi",
+    name="HelloPypi",
     version="0.0.1",
     author="kelly501",
     author_email="kellylink501@gmail.com",
@@ -18,5 +18,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.10',
     ],
     python_requires='>=3.8',
-    packages=['TestPypi'],
+    packages=['HelloPypi'],
 )
