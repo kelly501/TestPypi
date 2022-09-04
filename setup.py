@@ -1,8 +1,4 @@
 import setuptools
-# readme.md = github readme.md, 這裡可接受markdown寫法
-# 如果沒有的話，需要自己打出介紹此專案的檔案，再讓程式知道
-with open("README.md", "r") as fh:
-    long_description = fh.read()
 
 setuptools.setup(
     name="TestPypi",
@@ -10,7 +6,7 @@ setuptools.setup(
     author="kelly501",
     author_email="kellylink501@gmail.com",
     description="Test a small example package",
-    long_description=long_description,
+    long_description=open('README.md', encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/kelly501/TestPypi",
     classifiers=[
