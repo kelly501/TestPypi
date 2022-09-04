@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+
+# Include the data files
+recursive-include HelloPypi *
+
+exclude MANIFEST.in
+exclude setup.cfg
+exclude *.pyc
