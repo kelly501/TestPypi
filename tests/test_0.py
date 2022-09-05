@@ -1,3 +1,3 @@
-from HelloPypi import HelloPypi
+from ThisisatryP import HelloPypi
 
 HelloPypi.Hello()

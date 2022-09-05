@@ -1,9 +1,9 @@
 import setuptools
 
 setuptools.setup(
-    name="HelloPypi",
+    name="ThisisatryP",
     version="0.0.1",
-    author="kelly501",
+    author="kelly_huang",
     author_email="kellylink501@gmail.com",
     description="Test a small example package",
     long_description=open('README.md', encoding="utf-8").read(),
@@ -18,5 +18,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.10',
     ],
     python_requires='>=3.8',
-    packages=['HelloPypi'],
+    packages=['ThisisatryP'],
 )
