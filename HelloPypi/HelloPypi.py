@@ -1,1 +1,3 @@
-print('hello pypi,', 'this is a test')
+
+def Hello():
+    print('hello pypi,', 'this is a test')
